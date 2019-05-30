@@ -309,6 +309,85 @@
                 fill="#F8C975">
             </circle>
         </g>
+
+        <!-- third part of the graphic
+        include the SVG of the rocket
+        rocket.html is developed separately, to explain the path element
+        it is then include in index.html to explain how svg elements can be nested
+        -->
+
+        <!--
+            ! the attributes of the svg refer to the parent svg element
+            this means width="5" is 5 of the 150 width of the larger svg
+        -->
+        <svg
+            class="rocket"
+            viewBox="0 0 100 100"
+            width="5"
+            height="5"
+            x="25"
+            y="44">
+            <!--
+            the attributes **in** the svg refer to the newly defined viewBox
+            there exist a new coordinate system
+            -->
+            <g
+                transform="translate(50 8)"
+                class="exhaust">
+                <path
+                    d="M 0 60 q -20 12 0 24 q 20 -12 0 -24"
+                    fill="#ff6347"
+                    stroke-linecap="round"
+                    stroke="#322E63"
+                    stroke-width="3">
+                </path>
+
+                <rect
+                    x="-10"
+                    y="60"
+                    width="20"
+                    height="5"
+                    fill="#322E63"
+                    rx="2">
+                </rect>
+            </g>
+
+            <g
+                class="wings"
+                transform="translate(50 8)">
+                <path
+                    d="M 20 40 q 10 0 10 20 h -20 q 0 -20 10 -20"
+                    fill="#FFDA7A"
+                    stroke-linecap="round"
+                    stroke="#322E63"
+                    stroke-width="3">
+                </path>
+
+                <path
+                    d="M -20 40 q 10 0 10 20 h -20 q 0 -20 10 -20"
+                    fill="#FFDA7A"
+                    stroke-linecap="round"
+                    stroke="#322E63"
+                    stroke-width="3">
+                </path>
+            </g>
+
+            <path
+                d="M 50 9.5 q 20 10 20 40 q 0 20 -10 20 h -20 q -10 0 -10 -20 q 0 -30 20 -40"
+                fill="#2ABBDD"
+                stroke-linecap="round"
+                stroke="#322E63"
+                stroke-width="3">
+            </path>
+
+            <circle
+                cx="50"
+                cy="30"
+                r="7"
+                fill="#322E63">
+            </circle>
+        </svg>
+
     </svg>
 
 </body>
