@@ -16,3 +16,7 @@ svg {
   height: 100vh;
   width: auto;
 }
+/* style the text elements to explain the interplay between SVG and CSS */
+svg text {
+  text-transform: uppercase;
+}
