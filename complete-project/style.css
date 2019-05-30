@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+/*
+remove spacing between the body and the svg
+apply dark background and the imported font
+*/
+body {
+  padding: 0;
+  margin: 0;
+  background: #0e0e0e;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* have the svg spread to consider the entirety of the viewport's height */
+svg {
+  height: 100vh;
+  width: auto;
+}
