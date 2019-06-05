@@ -41,4 +41,4 @@ The measure considers astronomical units, which represent the average distance o
 
 ## Repo Structure
 
-In the _complete-project_ folder you find a general idea of how the solar system will look like. An up-to-date demo is also [live @codepen](https://codepen.io/borntofrappe/pen/gJpKxx). In separate folders, you then find stepped solutions leading up to the final version. The goal of each step is introducing a feature of SVG syntax, or reinforcing an SVG concept.
+In the _Final Project_ folder you find a general idea of how the solar system will look like. An up-to-date demo is also [live @codepen](https://codepen.io/borntofrappe/pen/gJpKxx). In separate folders, you then find stepped solutions leading up to the final version. The goal of each step is introducing a feature of SVG syntax, or reinforcing an SVG concept.
