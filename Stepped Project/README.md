@@ -6,8 +6,10 @@ In this folder you find the stepped solution progressively building the solar sy
 
 Each sub-folder is structured with an `index.html` and `README.md` file. The former describes the code accumulated after each challenge. The latter gives a brief overview of the code introduced in the markup.
 
-A stylesheet is included at the root level of this folder, and is shared by each and every `index.html` file.
+`style.css` is included at the root level of this folder, but it is still unclear what is the best way to incorporate its logic. Specifically at the beginning of the project, it might be best to have no stylesheet at all.
 
 ## Project Structure
 
 Here you find a short list of the sub-folders, including their label and purpose.
+
+1. Add an `<svg>` element.
