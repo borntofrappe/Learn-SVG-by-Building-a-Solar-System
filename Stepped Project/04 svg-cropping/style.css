@@ -1,0 +1,20 @@
+/* remove margin from the body to have the svg attached to the edge of the window */
+body {
+  margin: 0;
+}
+
+/* highlight the svg element with a small animation */
+svg.highlight {
+  animation: highlightSVG 2s ease-in-out infinite alternate;
+  background: #ff6347;
+}
+
+/* animation to highlight the <svg> element */
+@keyframes highlightSVG {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
