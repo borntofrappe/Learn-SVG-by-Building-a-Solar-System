@@ -16,10 +16,10 @@ Attributes are included in SVG elements like any other HTML element.
 
 ## Task
 
-Add the `width` and `height` attributes to make the `<svg>` element a rectangle `150` pixels wide and `100` tall.
+Add the `width` and `height` attributes to make the `<svg>` element a square `100` pixels wide and `100` pixels tall.
 
 ## Notes
 
-- CSS includes an animation to highlight the dimensions of the `<svg>` element.
+- the stylesheet includes a basic animation to highlight the `<svg>` element. This animation is based on a class, included by default to immediately visualize the SVG canvas.
 
-- unit-less should be accepted, as they produce the same result, but they are also and better discussed with regards to the `viewBox` attribute. Given the intricacies of the attribute, it is convenient to first get the camper acclamated with the SVG syntax sans `viewBox`.
+- pixel values (as in `width="100px`) can be accepted as unitless values (as in `width="100"`), as the two provide the same result. Unitless values are however preferrable, as it will become clear later when the `viewBox` attribute is introduced.

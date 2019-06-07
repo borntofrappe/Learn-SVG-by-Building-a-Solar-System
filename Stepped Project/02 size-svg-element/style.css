@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+/* remove margin from the body to have the svg attached to the edge of the window */
+body {
+  margin: 0;
+}
 
 /* highlight the svg element with a small animation */
 svg.highlight {
