@@ -2,7 +2,7 @@
 
 If you modified the `cx` and `cy` coordinates, you might have noticed another trait of SVG syntax:
 
-- greater `cx` values push the circle towards the _left_ of the canvas;
+- greater `cx` values push the circle towards the _right_ of the canvas;
 
 - greater `cy` values push the circle towards the _bottom_ of the canvas;
 

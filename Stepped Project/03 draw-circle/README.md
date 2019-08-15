@@ -11,3 +11,14 @@ To draw a circle, SVG offers the `<circle>` element.
 
 </svg>
 ```
+
+This will introduce the circle, but nothing will appear in the canvas. The `<circle>` element requires three essential attributes:
+
+- `r`, specifying the radius;
+
+- `cx` and `cy`, detailing the coordinates of the origin.
+
+## Task
+
+Include a `<circle>` element in the wrapping `<svg>` element. Specify a radius of `50` and center the circle in the SVG.
+

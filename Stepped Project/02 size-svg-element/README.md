@@ -22,4 +22,4 @@ Add the `width` and `height` attributes to make the `<svg>` element a square `10
 
 - the stylesheet includes a basic animation to highlight the `<svg>` element. This animation is based on a class, included by default to immediately visualize the SVG canvas.
 
-- pixel values (as in `width="100px`) can be accepted as unitless values (as in `width="100"`), as the two provide the same result. Unitless values are however preferrable, as it will become clear later when the `viewBox` attribute is introduced.
+- pixel values (as in `width="100px`) can be accepted as well as unitless values (as in `width="100"`). The difference will be highlighted in a later challenge discussing the `viewBox` attribute.
