@@ -4,9 +4,15 @@
 
 Introduce campers @freecodecamp to SVG syntax.
 
+## Project Structure
+
+- in the **Final Project** folder you find the `index.html` and `style.css` files ultimately describing the finished project. A live demo will also be provided on CodePen.
+
+- in the **Stepped Project** folder you find multiple sub-folders describing the steps leading up to the finished project. Following freeCodeCamp's guidelines, each step describes one concept and one concept only. To ease the organization of the project, the folders are also labeled in increments, and specify the task in their title (something akin to `01-add-svg-element`, `02-size-svg-element`).
+
 ## Data
 
-The project relies on accurate information regarding the size of the planets and their distance from our central star, the sun. Data is collected from [this helpful factsheet @NASA](https://nssdc.gsfc.nasa.gov/planetary/factsheet/planet_table_ratio.html) and organized in the following tables.
+The project relies on accurate information regarding the size of the planets in our solar system, as well as their distance from our central star, the sun. Data is drawn from [this helpful factsheet @NASA](https://nssdc.gsfc.nasa.gov/planetary/factsheet/planet_table_ratio.html) and organized in the following tables.
 
 ### Radius
 
@@ -26,7 +32,7 @@ Each planet is measured relative to the radius of planet Earth. `1` being `6,371
 
 ### Distance from the sun
 
-The measure considers astronomical units, which represent the average distance of the Earth from the Sun. `1` being `1.496e+8` (149 million, 598 thousands kilometers).
+Each planet is measured relative to the distance between planet Earth and the sun. `1` being an astronomical unit, or otherwise `1.496e+8 km` (149 million, 598 thousands kilometers).
 
 |Celestial Body|Distance from the Sun|
 |---|---|
@@ -38,7 +44,3 @@ The measure considers astronomical units, which represent the average distance o
 |Saturn|9.58|
 |Uranus|19.20|
 |Neptune|30.05|
-
-## Repo Structure
-
-In the _Final Project_ folder you find a general idea of how the solar system will look like. An up-to-date demo is also [live @codepen](https://codepen.io/borntofrappe/pen/gJpKxx). In separate folders, you then find stepped solutions leading up to the final version. The goal of each step is introducing a feature of SVG syntax, or reinforcing an SVG concept.
